@@ -1,6 +1,6 @@
 let inputTaskField = document.querySelector(".form-control");
 let taskList = document.querySelector(".list-group");
-const BACKEND_ROOT_URL = "http://localhost:3001";
+const BACKEND_ROOT_URL = "https://mytodo-back.onrender.com/";
 import { Todos } from "./class/todos.js";
 const todos = new Todos(BACKEND_ROOT_URL);
 
